@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.15.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "vacation-request",
+    "libraryId": "a14cc83b-208e-4121-b8ba-686f2acfe1e8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "vacation-request",
+    "solutionShortDescription": "vacation-request description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
