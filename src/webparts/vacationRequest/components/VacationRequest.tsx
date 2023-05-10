@@ -329,7 +329,7 @@ export default class VacationRequest extends React.Component<
     };
     // //*Change the current state of the requestValue <= ToDate
     const ToDateHandler = (e: any) => {
-      if (e <= this.state.requestValues.FromDate) {
+      if (e < this.state.requestValues.FromDate) {
         this.setState({ isBiggerThenStartData: true });
       } else {
         this.setState({
